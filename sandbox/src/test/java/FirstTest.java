@@ -33,8 +33,10 @@ public class FirstTest {
         wd.findElement(By.id("lst-ib")).sendKeys("selenium webdriver");
         wd.findElement(By.xpath("//div/div[3]/form/div[2]/div[2]/div[1]/div[1]/div[2]/div/div/div[2]/div/input[1]")).click();
         wd.findElement(By.xpath("//div/div[3]/form/div[2]/div[2]/div[1]/div[1]/div[2]/div/div/div[2]/div/input[1]")).sendKeys("\n");
+
     }
-    
+
+
     @AfterMethod
     public void tearDown() {
         wd.quit();
