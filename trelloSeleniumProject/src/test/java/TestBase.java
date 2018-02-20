@@ -94,12 +94,6 @@ public abstract class TestBase {
         wd.findElement(By.linkText("Log In")).click();
     }
 
-    protected void openSite() {
-        wd.get("https://trello.com/");
-    }
-
-
-
     protected void logout() {
         wd.findElement(By.cssSelector("span.member-initials")).click();
         wd.findElement(By.cssSelector("a.js-logout")).click();
@@ -112,5 +106,23 @@ public abstract class TestBase {
 
     protected void clickOnThePlusButton() {
         wd.findElement(By.cssSelector("span.header-btn-icon.icon-lg.icon-add")).click();
+    }
+
+    protected void clickSaveList() {
+        wd.findElement(By.xpath("//div[@id='board']/div/form/div/input")).click();
+    }
+
+    protected void createNameForList() {
+        wd.findElement(By.name("name")).click();
+        wd.findElement(By.name("name")).clear();
+        wd.findElement(By.name("name")).sendKeys("Name");
+    }
+
+    protected void clickAddListInTheBoard() {
+        wd.findElement(By.cssSelector("span.placeholder.js-open-add-list")).click();
+    }
+
+    protected void clickBoard() {
+        wd.findElement(By.cssSelector("span.board-tile-details.is-badged")).click();
     }
 }
