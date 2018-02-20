@@ -49,56 +49,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginValidUserTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginValidUserTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/LoginValidUserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="170">
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateNewBoardTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/CreateNewBoardTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#982#983#0" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
-                <element signature="e#1120#1121#0" expanded="true" />
-                <element signature="e#1192#1193#0" expanded="true" />
-                <element signature="e#1524#1525#0" expanded="true" />
-                <element signature="e#1590#1591#0" expanded="true" />
-                <element signature="e#1633#1634#0" expanded="true" />
-                <element signature="e#1722#1723#0" expanded="true" />
-                <element signature="e#1750#1751#0" expanded="true" />
-                <element signature="e#1804#1805#0" expanded="true" />
-                <element signature="e#2241#2242#0" expanded="true" />
-                <element signature="e#2302#2303#0" expanded="true" />
-                <element signature="e#2343#2344#0" expanded="true" />
-                <element signature="e#2370#2371#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateNewBoardTest2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/CreateNewBoardTest2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-              <folding>
-                <element signature="e#1145#1146#0" expanded="true" />
-                <element signature="e#1199#1200#0" expanded="true" />
-                <element signature="e#1615#1616#0" expanded="true" />
-                <element signature="e#1676#1677#0" expanded="true" />
-                <element signature="e#1707#1708#0" expanded="true" />
-                <element signature="e#1752#1753#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -691,8 +648,8 @@
         <option value="$PROJECT_DIR$/sandbox/src/test/java/FirstTest.java" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/TestBase.java" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/LoginTrelloTest.java" />
-        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/CreateNewBoardTest.java" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/CreateNewBoardTest2.java" />
+        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/CreateNewBoardTest.java" />
       </list>
     </option>
   </component>
@@ -702,7 +659,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="113" />
     <option name="width" value="1241" />
     <option name="height" value="728" />
@@ -794,7 +751,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CreateNewBoardTest2.CreateNewBoardFromTheHeader">
+  <component name="RunManager" selected="TestNG.CreateNewBoardTest.CreateNewBoard">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1020,8 +977,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.CreateNewBoardTest2.CreateNewBoardFromTheHeader" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.CreateNewBoardTest.CreateNewBoard" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.CreateNewBoardTest.CreateNewBoard" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.CreateNewBoardTest2.CreateNewBoardFromTheHeader" />
         <item index="2" class="java.lang.String" itemvalue="TestNG.LoginValidUserTest" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.LoginValidUserTest.validUserLoginTrelloTest" />
         <item index="4" class="java.lang.String" itemvalue="TestNG.FirstTest.FirstTest" />
@@ -1048,11 +1005,8 @@
     <history-entry file="CreateNewBoardTest2_CreateNewBoardFromTheHeader - 2018.02.20 at 12h 20m 50s.xml">
       <configuration name="CreateNewBoardTest2.CreateNewBoardFromTheHeader" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreateNewBoardTest_CreateNewBoard - 2018.02.19 at 15h 29m 30s.xml">
-      <configuration name="CreateNewBoardTest.CreateNewBoard" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateNewBoardTest_CreateNewBoard - 2018.02.19 at 15h 30m 51s.xml">
-      <configuration name="CreateNewBoardTest.CreateNewBoard" configurationId="TestNG" />
+    <history-entry file="CreateNewBoardTest2_CreateNewBoardFromTheHeader - 2018.02.20 at 12h 30m 49s.xml">
+      <configuration name="CreateNewBoardTest2.CreateNewBoardFromTheHeader" configurationId="TestNG" />
     </history-entry>
     <history-entry file="CreateNewBoardTest_CreateNewBoard - 2018.02.20 at 11h 51m 48s.xml">
       <configuration name="CreateNewBoardTest.CreateNewBoard" configurationId="TestNG" />
@@ -1063,8 +1017,11 @@
     <history-entry file="CreateNewBoardTest_CreateNewBoard - 2018.02.20 at 11h 57m 39s.xml">
       <configuration name="CreateNewBoardTest.CreateNewBoard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTrelloTest - 2018.02.19 at 16h 52m 09s.xml">
-      <configuration name="LoginTrelloTest" configurationId="TestNG" />
+    <history-entry file="CreateNewBoardTest_CreateNewBoard - 2018.02.20 at 12h 35m 03s.xml">
+      <configuration name="CreateNewBoardTest.CreateNewBoard" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateNewBoardTest_CreateNewBoard - 2018.02.20 at 12h 40m 45s.xml">
+      <configuration name="CreateNewBoardTest.CreateNewBoard" configurationId="TestNG" />
     </history-entry>
     <history-entry file="LoginTrelloTest - 2018.02.19 at 19h 54m 26s.xml">
       <configuration name="LoginTrelloTest" configurationId="TestNG" />
@@ -1077,7 +1034,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="113" y="0" width="1241" height="728" extended-state="0" />
+    <frame x="113" y="0" width="1241" height="728" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1121,13 +1078,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/CreateNewBoardTest.java</url>
-          <line>10</line>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
@@ -1165,23 +1115,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1192#1193#0" expanded="true" />
-            <element signature="e#1524#1525#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1633#1634#0" expanded="true" />
-            <element signature="e#1722#1723#0" expanded="true" />
-            <element signature="e#1750#1751#0" expanded="true" />
-            <element signature="e#1804#1805#0" expanded="true" />
-            <element signature="e#2241#2242#0" expanded="true" />
-            <element signature="e#2302#2303#0" expanded="true" />
-            <element signature="e#2343#2344#0" expanded="true" />
-            <element signature="e#2370#2371#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1370,13 +1304,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/LoginValidUserTest.java">
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="112">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/CreateNewBoardTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="34" column="94" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="94" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1398,49 +1338,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/build.gradle">
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/CreateNewBoardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="170">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/CreateNewBoardTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1192#1193#0" expanded="true" />
-            <element signature="e#1524#1525#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1633#1634#0" expanded="true" />
-            <element signature="e#1722#1723#0" expanded="true" />
-            <element signature="e#1750#1751#0" expanded="true" />
-            <element signature="e#1804#1805#0" expanded="true" />
-            <element signature="e#2241#2242#0" expanded="true" />
-            <element signature="e#2302#2303#0" expanded="true" />
-            <element signature="e#2343#2344#0" expanded="true" />
-            <element signature="e#2370#2371#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/CreateNewBoardTest2.java">
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/LoginValidUserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1199#1200#0" expanded="true" />
-            <element signature="e#1615#1616#0" expanded="true" />
-            <element signature="e#1676#1677#0" expanded="true" />
-            <element signature="e#1707#1708#0" expanded="true" />
-            <element signature="e#1752#1753#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
