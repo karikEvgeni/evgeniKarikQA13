@@ -24,9 +24,11 @@ public class TestBase {
     @BeforeClass
     public void setUp() throws Exception {
         wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
-        wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-        openSite();
+        wd.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        openSite("https://trello.com");
     }
+
+
 
     protected void confirmLogInButton() {
         wd.findElement(By.id("login")).click();
@@ -44,15 +46,12 @@ public class TestBase {
         wd.findElement(By.id("user")).sendKeys(userName);
     }
 
-    protected void openSite() {
-        wd.get("https://trello.com/");
-    }
-
     protected void clickLogInButton() {
         wd.findElement(By.linkText("Log In")).click();
     }
 
     @AfterClass
+
     public void tearDown() {
         wd.quit();
     }
@@ -60,5 +59,9 @@ public class TestBase {
     protected void logout() {
         wd.findElement(By.cssSelector("span.member-initials")).click();
         wd.findElement(By.cssSelector("a.js-logout")).click();
+    }
+
+    protected void openSite(String url) {
+        wd.get(url);
     }
 }
