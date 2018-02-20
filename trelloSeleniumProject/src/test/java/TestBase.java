@@ -3,14 +3,28 @@ import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 
 import java.util.concurrent.TimeUnit;
 
-public class TestBase {
+public abstract class TestBase {
 
 
     FirefoxDriver wd;
+
+   @BeforeMethod
+    public void setUp() throws Exception {
+        wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
+        wd.manage().timeouts().implicitlyWait(80, TimeUnit.SECONDS);
+        openSite("https://trello.com/");
+    }
+
+    @AfterMethod
+    public void tearDown() {
+        wd.quit();
+    }
 
     public static boolean isAlertPresent(FirefoxDriver wd) {
         try {
@@ -20,15 +34,6 @@ public class TestBase {
             return false;
         }
     }
-
-    @BeforeClass
-    public void setUp() throws Exception {
-        wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
-        wd.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        openSite("https://trello.com");
-    }
-
-
 
     protected void confirmLogInButton() {
         wd.findElement(By.id("login")).click();
@@ -50,11 +55,50 @@ public class TestBase {
         wd.findElement(By.linkText("Log In")).click();
     }
 
-    @AfterClass
-
-    public void tearDown() {
-        wd.quit();
+    protected void returnToHomePage() {
+        wd.findElement(By.xpath("//div[@class='header-back-button']/a/span")).click();
     }
+
+    protected void clickCreateBoardButton() {
+        wd.findElement(By.cssSelector("button.primary")).click();
+    }
+
+    protected void openDropDownMenuVisibility() {
+        wd.findElement(By.xpath("//form[@class='create-board-form']//button[.='Private']")).click();
+    }
+
+    protected void initBoardCreationInFromTheBody() {
+        wd.findElement(By.xpath("//div[@class='js-react-root']//span[.='Create new board…']")).click();
+    }
+
+    protected void fillBoardTitle() {
+        wd.findElement(By.cssSelector("input.subtle-input")).click();
+        wd.findElement(By.cssSelector("input.subtle-input")).clear();
+        wd.findElement(By.cssSelector("input.subtle-input")).sendKeys("2 Karik board");
+    }
+
+    protected void login() {
+        wd.findElement(By.id("login")).click();
+    }
+
+    protected void fillLoginForm() {
+        wd.findElement(By.id("user")).click();
+        wd.findElement(By.id("user")).clear();
+        wd.findElement(By.id("user")).sendKeys("elena.telran@yahoo.com");
+        wd.findElement(By.id("password")).click();
+        wd.findElement(By.id("password")).clear();
+        wd.findElement(By.id("password")).sendKeys("12345.com");
+    }
+
+    protected void clickLoginButton() {
+        wd.findElement(By.linkText("Log In")).click();
+    }
+
+    protected void openSite() {
+        wd.get("https://trello.com/");
+    }
+
+
 
     protected void logout() {
         wd.findElement(By.cssSelector("span.member-initials")).click();
@@ -63,5 +107,10 @@ public class TestBase {
 
     protected void openSite(String url) {
         wd.get(url);
+    }
+
+
+    protected void clickOnThePlusButton() {
+        wd.findElement(By.cssSelector("span.header-btn-icon.icon-lg.icon-add")).click();
     }
 }
