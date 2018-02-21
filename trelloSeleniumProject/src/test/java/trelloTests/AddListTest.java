@@ -1,6 +1,6 @@
-import org.testng.annotations.Test;
+package trelloTests;
 
-import org.openqa.selenium.*;
+import org.testng.annotations.Test;
 
 public class AddListTest extends TestBase{
 
@@ -9,8 +9,8 @@ public class AddListTest extends TestBase{
         clickLoginButton();
         enterUserName("elena.telran@yahoo.com");
         enterPassword("12345.com");
-        confirmLogInButton();
-        clickBoard();
+        confirmLogin();
+        clickOnTheBoardOnBody();
         clickAddListInTheBoard();
         createNameForList();
         clickSaveList();

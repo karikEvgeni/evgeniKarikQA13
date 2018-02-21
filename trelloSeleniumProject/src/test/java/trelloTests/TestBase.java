@@ -1,11 +1,11 @@
+package trelloTests;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 
 import java.util.concurrent.TimeUnit;
 
@@ -19,6 +19,7 @@ public abstract class TestBase {
         wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
         wd.manage().timeouts().implicitlyWait(80, TimeUnit.SECONDS);
         openSite("https://trello.com/");
+
     }
 
     @AfterClass
@@ -35,7 +36,7 @@ public abstract class TestBase {
         }
     }
 
-    protected void confirmLogInButton() {
+    protected void confirmLogin() {
         wd.findElement(By.id("login")).click();
     }
 
@@ -49,10 +50,6 @@ public abstract class TestBase {
         wd.findElement(By.id("user")).click();
         wd.findElement(By.id("user")).clear();
         wd.findElement(By.id("user")).sendKeys(userName);
-    }
-
-    protected void clickLogInButton() {
-        wd.findElement(By.linkText("Log In")).click();
     }
 
     protected void returnToHomePage() {
@@ -77,8 +74,6 @@ public abstract class TestBase {
         wd.findElement(By.cssSelector("input.subtle-input")).sendKeys("2 Karik board");
     }
 
-
-
     protected void fillValidLoginForm() {
         wd.findElement(By.id("user")).click();
         wd.findElement(By.id("user")).clear();
@@ -101,7 +96,6 @@ public abstract class TestBase {
         wd.get(url);
     }
 
-
     protected void clickOnThePlusButton() {
         wd.findElement(By.cssSelector("span.header-btn-icon.icon-lg.icon-add")).click();
     }
@@ -120,7 +114,7 @@ public abstract class TestBase {
         wd.findElement(By.cssSelector("span.placeholder.js-open-add-list")).click();
     }
 
-    protected void clickBoard() {
+    protected void clickOnTheBoardOnBody() {
         wd.findElement(By.cssSelector("span.board-tile-details.is-badged")).click();
     }
 
@@ -137,5 +131,13 @@ public abstract class TestBase {
         wd.findElement(By.cssSelector("span.sub-name")).click();
    }
 
+   public void login(String userName, String pwd){
+
+       clickLoginButton();
+       enterUserName(userName);
+       enterPassword(pwd);
+       confirmLogin();
+
+   }
 
 }

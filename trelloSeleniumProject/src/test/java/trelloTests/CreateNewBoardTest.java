@@ -1,4 +1,5 @@
-import org.openqa.selenium.By;
+package trelloTests;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -9,7 +10,7 @@ public class CreateNewBoardTest extends TestBase{
         Assert.assertEquals(wd.getCurrentUrl(), "https://trello.com/");
         clickLoginButton();
         fillValidLoginForm();
-        confirmLogInButton();
+        confirmLogin();
         clickOnThePlusButton();
 
     }
@@ -19,7 +20,7 @@ public class CreateNewBoardTest extends TestBase{
 
         clickLoginButton();
         fillValidLoginForm();
-        confirmLogInButton();
+        confirmLogin();
         initBoardCreationInFromTheBody();
         fillBoardTitle();
         openDropDownMenuVisibility();

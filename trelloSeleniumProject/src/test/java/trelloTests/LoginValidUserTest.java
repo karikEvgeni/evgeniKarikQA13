@@ -1,10 +1,6 @@
-import org.openqa.selenium.firefox.FirefoxOptions;
+package trelloTests;
+
 import org.testng.annotations.*;
-
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.*;
 
 
 public class LoginValidUserTest extends TestBase{
@@ -15,26 +11,27 @@ public class LoginValidUserTest extends TestBase{
 }
     @Test (priority = 1)
     public void loginTrelloValidTest() {
-        clickLogInButton();
+        clickLoginButton();
         enterUserName("elena.telran@yahoo.com");
         enterPassword("12345.com");
-        confirmLogInButton();
+        confirmLogin();
         logout();
+
     }
 
     @Test (priority = 3)
     public void loginTrelloNotValidTast() {
-        clickLogInButton();
+        clickLoginButton();
         enterUserName("1");
         enterPassword("12345.com");
-        confirmLogInButton();
+        confirmLogin();
     }
 
     @Test (priority = 2)
     public void loginTrelloEmptyFieldsTest() {
-        clickLogInButton();
+        clickLoginButton();
         enterUserName("");
         enterPassword("");
-        confirmLogInButton();
+        confirmLogin();
     }
 }
