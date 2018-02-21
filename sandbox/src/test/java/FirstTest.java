@@ -25,14 +25,17 @@ public class FirstTest {
     @Test
     public void FirstTest() {
         wd.get("https://www.google.co.il/");
-        wd.findElement(By.id("lst-ib")).click();
-        wd.findElement(By.id("lst-ib")).clear();
-        wd.findElement(By.id("lst-ib")).sendKeys("selenium webdriver");
-        wd.findElement(By.id("lst-ib")).click();
-        wd.findElement(By.id("lst-ib")).clear();
-        wd.findElement(By.id("lst-ib")).sendKeys("selenium webdriver");
-        wd.findElement(By.xpath("//div/div[3]/form/div[2]/div[2]/div[1]/div[1]/div[2]/div/div/div[2]/div/input[1]")).click();
-        wd.findElement(By.xpath("//div/div[3]/form/div[2]/div[2]/div[1]/div[1]/div[2]/div/div/div[2]/div/input[1]")).sendKeys("\n");
+      //     wd.findElement(By.id("gs_ok0")).click();
+
+
+//        wd.findElement(By.id("lst-ib")).click();
+//        wd.findElement(By.id("lst-ib")).clear();
+//        wd.findElement(By.id("lst-ib")).sendKeys("selenium webdriver");
+//        wd.findElement(By.id("lst-ib")).click();
+//        wd.findElement(By.id("lst-ib")).clear();
+//        wd.findElement(By.id("lst-ib")).sendKeys("selenium webdriver");
+//        wd.findElement(By.xpath("//div/div[3]/form/div[2]/div[2]/div[1]/div[1]/div[2]/div/div/div[2]/div/input[1]")).click();
+//        wd.findElement(By.xpath("//div/div[3]/form/div[2]/div[2]/div[1]/div[1]/div[2]/div/div/div[2]/div/input[1]")).sendKeys("\n");
 
     }
 

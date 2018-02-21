@@ -65,15 +65,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginValidUserTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/LoginValidUserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RenameBoardTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/RenameBoardTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="31" column="84" lean-forward="false" selection-start-line="31" selection-start-column="84" selection-end-line="31" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddListTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/AddListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-163">
-              <caret line="114" column="5" lean-forward="true" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
+            <state relative-caret-position="18">
+              <caret line="114" column="5" lean-forward="false" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
                 <element signature="method#isAlertPresent#0;class#TestBase#0" expanded="false" />
                 <element signature="method#enterPassword#0;class#TestBase#0" expanded="false" />
                 <element signature="method#openDropDownMenuVisibility#0;class#TestBase#0" expanded="false" />
@@ -88,16 +115,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RenameBoardTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/RenameBoardTest.java">
+      <file leaf-file-name="CreateNewBoandPlusTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/CreateNewBoandPlusTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="31" column="84" lean-forward="false" selection-start-line="31" selection-start-column="84" selection-end-line="31" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1065#1066#0" expanded="true" />
-                <element signature="e#1149#1150#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateNewBoardTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/CreateNewBoardTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -674,7 +707,6 @@
       <list>
         <option value="$PROJECT_DIR$/sandbox/build.gradle" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/build.gradle" />
-        <option value="$PROJECT_DIR$/sandbox/src/test/java/FirstTest.java" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/LoginTrelloTest.java" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/CreateNewBoardTest2.java" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/CreateNewBoardPlusTest.java" />
@@ -685,8 +717,9 @@
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/LoginValidUserTest.java" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/LoginValidUserTest.java" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/TestBase.java" />
-        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/Q.java" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/RenameBoardTest.java" />
+        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/Q.java" />
+        <option value="$PROJECT_DIR$/sandbox/src/test/java/FirstTest.java" />
       </list>
     </option>
   </component>
@@ -696,9 +729,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="433" />
-    <option name="y" value="1" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="313" />
+    <option name="y" value="26" />
     <option name="width" value="933" />
     <option name="height" value="719" />
   </component>
@@ -734,6 +767,10 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
             <path>
               <item name="sandbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="trelloSeleniumProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -800,7 +837,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RenameBoardTest.renameBordTest">
+  <component name="RunManager" selected="TestNG.FirstTest.FirstTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -876,17 +913,17 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="CreateNewBoardTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest.FirstTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="trelloSeleniumProject_test" />
+      <module name="sandbox_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="trelloTests.CreateNewBoardTest" />
-      <option name="METHOD_NAME" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest" />
+      <option name="METHOD_NAME" value="FirstTest" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -1024,18 +1061,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="TestNG.CreateNewBoandPlusTest.CreateNewBoandPlusTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.CreateNewBoardTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.LoginValidUserTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.LoginValidUserTest.loginTrelloValidTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.RenameBoardTest.renameBordTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.LoginValidUserTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.LoginValidUserTest.loginTrelloValidTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.RenameBoardTest.renameBordTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.FirstTest.FirstTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.RenameBoardTest.renameBordTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.LoginValidUserTest.loginTrelloValidTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.CreateNewBoandPlusTest.CreateNewBoandPlusTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.LoginValidUserTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.CreateNewBoardTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.FirstTest.FirstTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.RenameBoardTest.renameBordTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.LoginValidUserTest.loginTrelloValidTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.CreateNewBoandPlusTest.CreateNewBoandPlusTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.LoginValidUserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1056,23 +1093,23 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RenameBoardTest_renameBordTest - 2018.02.21 at 20h 43m 02s.xml">
-      <configuration name="RenameBoardTest.renameBordTest" configurationId="TestNG" />
+    <history-entry file="FirstTest_FirstTest - 2018.02.21 at 21h 59m 55s.xml">
+      <configuration name="FirstTest.FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RenameBoardTest_renameBordTest - 2018.02.21 at 20h 49m 59s.xml">
-      <configuration name="RenameBoardTest.renameBordTest" configurationId="TestNG" />
+    <history-entry file="FirstTest_FirstTest - 2018.02.21 at 22h 11m 16s.xml">
+      <configuration name="FirstTest.FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RenameBoardTest_renameBordTest - 2018.02.21 at 21h 05m 05s.xml">
-      <configuration name="RenameBoardTest.renameBordTest" configurationId="TestNG" />
+    <history-entry file="FirstTest_FirstTest - 2018.02.21 at 22h 15m 01s.xml">
+      <configuration name="FirstTest.FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RenameBoardTest_renameBordTest - 2018.02.21 at 21h 07m 05s.xml">
-      <configuration name="RenameBoardTest.renameBordTest" configurationId="TestNG" />
+    <history-entry file="FirstTest_FirstTest - 2018.02.21 at 22h 15m 39s.xml">
+      <configuration name="FirstTest.FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RenameBoardTest_renameBordTest - 2018.02.21 at 21h 07m 54s.xml">
-      <configuration name="RenameBoardTest.renameBordTest" configurationId="TestNG" />
+    <history-entry file="FirstTest_FirstTest - 2018.02.21 at 22h 16m 20s.xml">
+      <configuration name="FirstTest.FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RenameBoardTest_renameBordTest - 2018.02.21 at 21h 20m 28s.xml">
-      <configuration name="RenameBoardTest.renameBordTest" configurationId="TestNG" />
+    <history-entry file="FirstTest_FirstTest - 2018.02.21 at 22h 17m 15s.xml">
+      <configuration name="FirstTest.FirstTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="RenameBoardTest_renameBordTest - 2018.02.21 at 21h 22m 04s.xml">
       <configuration name="RenameBoardTest.renameBordTest" configurationId="TestNG" />
@@ -1088,8 +1125,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="433" y="1" width="933" height="719" extended-state="1" />
-    <editor active="true" />
+    <frame x="313" y="26" width="933" height="719" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1099,7 +1135,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33724833" sideWeight="0.50423217" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34582624" sideWeight="0.49576783" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34582624" sideWeight="0.49576783" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1107,7 +1143,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2279496" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17121848" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17067583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1132,7 +1168,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1141,10 +1177,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="46" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,9 +1202,9 @@
         <state relative-caret-position="969">
           <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#679#680#0" expanded="false" />
+            <element signature="e#704#705#0" expanded="false" />
             <element signature="method#isAlertPresent#0;class#TestBase#0" expanded="false" />
             <element signature="method#enterPassword#0;class#TestBase#0" expanded="false" />
             <element signature="method#openDropDownMenuVisibility#0;class#TestBase#0" expanded="false" />
@@ -1189,10 +1222,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1201,9 +1231,9 @@
         <state relative-caret-position="238">
           <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#679#680#0" expanded="false" />
+            <element signature="e#704#705#0" expanded="false" />
             <element signature="method#isAlertPresent#0;class#TestBase#0" expanded="false" />
             <element signature="method#enterPassword#0;class#TestBase#0" expanded="false" />
             <element signature="method#openDropDownMenuVisibility#0;class#TestBase#0" expanded="false" />
@@ -1229,10 +1259,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1241,9 +1268,9 @@
         <state relative-caret-position="340">
           <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#679#680#0" expanded="false" />
+            <element signature="e#704#705#0" expanded="false" />
             <element signature="method#isAlertPresent#0;class#TestBase#0" expanded="false" />
             <element signature="method#enterPassword#0;class#TestBase#0" expanded="false" />
             <element signature="method#openDropDownMenuVisibility#0;class#TestBase#0" expanded="false" />
@@ -1261,10 +1288,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1273,9 +1297,9 @@
         <state relative-caret-position="935">
           <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#679#680#0" expanded="false" />
+            <element signature="e#704#705#0" expanded="false" />
             <element signature="method#isAlertPresent#0;class#TestBase#0" expanded="false" />
             <element signature="method#enterPassword#0;class#TestBase#0" expanded="false" />
             <element signature="method#openDropDownMenuVisibility#0;class#TestBase#0" expanded="false" />
@@ -1308,10 +1332,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1327,10 +1348,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="51" lean-forward="false" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1353,10 +1371,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1393,10 +1408,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
           <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1425,25 +1437,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/CreateNewBoardTest2.java" />
     <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/1.java" />
-    <entry file="file://$PROJECT_DIR$/sandbox/src/test/java/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/CreateNewBoardPlusTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/CreateNewBoardTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1456,6 +1453,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/Q.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandbox/src/test/java/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/AddListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/CreateNewBoandPlusTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1464,41 +1485,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/LoginValidUserTest.java">
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/CreateNewBoardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-101">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/AddListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="323">
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/Q.java">
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/LoginValidUserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="86">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/RenameBoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="31" column="84" lean-forward="false" selection-start-line="31" selection-start-column="84" selection-end-line="31" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
-          <caret line="114" column="5" lean-forward="true" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
+        <state relative-caret-position="18">
+          <caret line="114" column="5" lean-forward="false" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
             <element signature="method#isAlertPresent#0;class#TestBase#0" expanded="false" />
             <element signature="method#enterPassword#0;class#TestBase#0" expanded="false" />
             <element signature="method#openDropDownMenuVisibility#0;class#TestBase#0" expanded="false" />
@@ -1508,18 +1523,6 @@
             <element signature="method#logout#0;class#TestBase#0" expanded="false" />
             <element signature="method#createNameForList#0;class#TestBase#0" expanded="false" />
             <element signature="method#clickAddListInTheBoard#0;class#TestBase#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/RenameBoardTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="31" column="84" lean-forward="false" selection-start-line="31" selection-start-column="84" selection-end-line="31" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
           </folding>
         </state>
       </provider>
