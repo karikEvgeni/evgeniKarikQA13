@@ -8,7 +8,7 @@ public class CreateNewBoardTest extends TestBase{
     public void createNewBoardFromTheHeader(){
         Assert.assertEquals(wd.getCurrentUrl(), "https://trello.com/");
         clickLoginButton();
-        fillLoginForm();
+        fillValidLoginForm();
         login();
         clickOnThePlusButton();
 
@@ -18,7 +18,7 @@ public class CreateNewBoardTest extends TestBase{
     public void createNewBoardTest() {
 
         clickLoginButton();
-        fillLoginForm();
+        fillValidLoginForm();
         login();
         initBoardCreationInFromTheBody();
         fillBoardTitle();
@@ -29,11 +29,6 @@ public class CreateNewBoardTest extends TestBase{
         //(user icon click) wd.findElement(By.cssSelector("span.member-initials")).click();
        // wd.findElement(By.linkText("Log Out")).click();
     }
-
-    /*private void selectPublicBoardFromDropDownVisibility() {
-
-        wd.findElement(By.linkText("PublicThe board is public. It's visible to anyone with the link and will show up in search engines like Google.  Only people added to the board can edit it.")).click();
-    }*/
 
 
 }

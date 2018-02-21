@@ -81,7 +81,7 @@ public abstract class TestBase {
         wd.findElement(By.id("login")).click();
     }
 
-    protected void fillLoginForm() {
+    protected void fillValidLoginForm() {
         wd.findElement(By.id("user")).click();
         wd.findElement(By.id("user")).clear();
         wd.findElement(By.id("user")).sendKeys("elena.telran@yahoo.com");
@@ -125,4 +125,19 @@ public abstract class TestBase {
     protected void clickBoard() {
         wd.findElement(By.cssSelector("span.board-tile-details.is-badged")).click();
     }
+
+    protected void selectPublicBoardFromDropDownVisibility() {
+
+        wd.findElement(By.xpath("//div[@id='classic']/div[5]/div/div[2]/div/ul/li[2]/a/span[3]/span")).click();
+    }
+
+    protected void click_createBoard() {
+        wd.findElement(By.cssSelector("button.primary")).click();
+    }
+
+    protected void click_CreateBoard_InTheHeader() {
+        wd.findElement(By.cssSelector("span.sub-name")).click();
+   }
+
+
 }
