@@ -21,7 +21,7 @@ public class CreateNewBoandPlusTest extends  TestBase{
 
         clickLoginButton();
         fillValidLoginForm();
-        login();
+        confirmLogInButton();
         clickOnThePlusButton();
         click_CreateBoard_InTheHeader();
         fillBoardTitle();

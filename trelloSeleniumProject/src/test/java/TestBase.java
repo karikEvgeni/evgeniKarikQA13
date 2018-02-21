@@ -14,14 +14,14 @@ public abstract class TestBase {
 
     FirefoxDriver wd;
 
-   @BeforeMethod
+   @BeforeClass
     public void setUp() throws Exception {
         wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
         wd.manage().timeouts().implicitlyWait(80, TimeUnit.SECONDS);
         openSite("https://trello.com/");
     }
 
-    @AfterMethod
+    @AfterClass
     public void tearDown() {
         wd.quit();
     }
@@ -77,9 +77,7 @@ public abstract class TestBase {
         wd.findElement(By.cssSelector("input.subtle-input")).sendKeys("2 Karik board");
     }
 
-    protected void login() {
-        wd.findElement(By.id("login")).click();
-    }
+
 
     protected void fillValidLoginForm() {
         wd.findElement(By.id("user")).click();

@@ -9,10 +9,12 @@ import org.openqa.selenium.*;
 
 public class LoginValidUserTest extends TestBase{
 
-
-
+@BeforeMethod
+    public void createPreconditions(){
+        openSite("https://trello.com/");
+}
     @Test (priority = 1)
-    public void validUserLoginTrelloTest() {
+    public void loginTrelloValidTest() {
         clickLogInButton();
         enterUserName("elena.telran@yahoo.com");
         enterPassword("12345.com");
@@ -20,16 +22,16 @@ public class LoginValidUserTest extends TestBase{
         logout();
     }
 
-    @Test (priority = 2)
-    public void loginTrelloTestNotValid() {
+    @Test (priority = 3)
+    public void loginTrelloNotValidTast() {
         clickLogInButton();
-        enterUserName("11111");
+        enterUserName("1");
         enterPassword("12345.com");
         confirmLogInButton();
     }
 
-    @Test (priority = 3)
-    public void loginTrelloTestEmptyFields() {
+    @Test (priority = 2)
+    public void loginTrelloEmptyFieldsTest() {
         clickLogInButton();
         enterUserName("");
         enterPassword("");

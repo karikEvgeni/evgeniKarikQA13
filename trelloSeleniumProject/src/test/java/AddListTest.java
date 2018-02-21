@@ -9,7 +9,7 @@ public class AddListTest extends TestBase{
         clickLoginButton();
         enterUserName("elena.telran@yahoo.com");
         enterPassword("12345.com");
-        login();
+        confirmLogInButton();
         clickBoard();
         clickAddListInTheBoard();
         createNameForList();

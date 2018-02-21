@@ -9,7 +9,7 @@ public class CreateNewBoardTest extends TestBase{
         Assert.assertEquals(wd.getCurrentUrl(), "https://trello.com/");
         clickLoginButton();
         fillValidLoginForm();
-        login();
+        confirmLogInButton();
         clickOnThePlusButton();
 
     }
@@ -19,15 +19,14 @@ public class CreateNewBoardTest extends TestBase{
 
         clickLoginButton();
         fillValidLoginForm();
-        login();
+        confirmLogInButton();
         initBoardCreationInFromTheBody();
         fillBoardTitle();
         openDropDownMenuVisibility();
-       // selectPublicBoardFromDropDownVisibility();
+        selectPublicBoardFromDropDownVisibility();
         clickCreateBoardButton();
         returnToHomePage();
-        //(user icon click) wd.findElement(By.cssSelector("span.member-initials")).click();
-       // wd.findElement(By.linkText("Log Out")).click();
+
     }
 
 
