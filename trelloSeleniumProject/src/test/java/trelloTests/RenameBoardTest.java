@@ -20,6 +20,8 @@ public class RenameBoardTest extends TestBase{
     typeNewNameForCurrentNameBoard("1 karik");
     clickTheButton_RenameBoard();
     returnToHomePage();
+    clickOnAvatar();
+    click_Log_Out_InTheMenuAccount();
     }
 
     private void clickTheButton_RenameBoard() {

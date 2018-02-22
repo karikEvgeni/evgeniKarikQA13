@@ -15,7 +15,7 @@ public class LoginValidUserTest extends TestBase{
         enterUserName("elena.telran@yahoo.com");
         enterPassword("12345.com");
         confirmLogin();
-        logout();
+        clickOnAvatar();
 
     }
 

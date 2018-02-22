@@ -11,8 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 public abstract class TestBase {
 
-
-    FirefoxDriver wd;
+  FirefoxDriver wd;
 
    @BeforeClass
     public void setUp() throws Exception {
@@ -87,9 +86,11 @@ public abstract class TestBase {
         wd.findElement(By.linkText("Log In")).click();
     }
 
-    protected void logout() {
+    protected void clickOnAvatar() {
         wd.findElement(By.cssSelector("span.member-initials")).click();
-        wd.findElement(By.cssSelector("a.js-logout")).click();
+    }
+    protected void click_Log_Out_InTheMenuAccount(){
+        wd.findElement(By.linkText("Log Out")).click();
     }
 
     protected void openSite(String url) {
@@ -131,7 +132,7 @@ public abstract class TestBase {
         wd.findElement(By.cssSelector("span.sub-name")).click();
    }
 
-   public void login(String userName, String pwd){
+    public void login(String userName, String pwd){
 
        clickLoginButton();
        enterUserName(userName);
