@@ -7,7 +7,7 @@ public class GroupDeletionTests extends TestBase{
 
     @Test
     public void deletionGroupTest(){
-        app.goToGroupsPage();
+        app.getNavigationHelper().goToGroupsPage();
         int before = app.getGroupHelper().getGroupCount();
         app.getGroupHelper().selectGroup();
         app.getGroupHelper().initGroupDeletion();

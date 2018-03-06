@@ -10,6 +10,8 @@ import java.util.concurrent.TimeUnit;
 public class ApplicationManager{
     private GroupHelper groupHelper;
     private SessionHelper sessionHelper;
+    private ContactHelper contactHelper;
+    private NavigationHelper navigationHelper;
     FirefoxDriver wd;
 
     public static boolean isAlertPresent(FirefoxDriver wd) {
@@ -25,7 +27,9 @@ public class ApplicationManager{
         wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
         wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         groupHelper = new GroupHelper(wd);
+        contactHelper = new ContactHelper(wd);
         sessionHelper = new SessionHelper(wd);
+        navigationHelper = new NavigationHelper(wd);
         openSite();
         sessionHelper.login("admin", "secret");
     }
@@ -46,7 +50,14 @@ public class ApplicationManager{
         return sessionHelper;
     }
 
-    public void goToGroupsPage() {
-        wd.findElement(By.linkText("groups")).click();
+    public ContactHelper getContactHelper() {
+        return contactHelper;
     }
+
+    public NavigationHelper getNavigationHelper(){
+        return navigationHelper;
+    }
+
+
+
 }
