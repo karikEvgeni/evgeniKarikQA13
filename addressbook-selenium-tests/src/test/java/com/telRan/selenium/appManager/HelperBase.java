@@ -7,6 +7,7 @@ public class HelperBase {
     FirefoxDriver wd;
 
     public HelperBase(FirefoxDriver wd) {
+
         this.wd = wd;
     }
 
@@ -16,7 +17,7 @@ public class HelperBase {
         wd.findElement(locator).clear();
         wd.findElement(locator).sendKeys(text);
     }
-    public void click(By submit) {
-        wd.findElement(submit).click();
+    public void click(By locator) {
+        wd.findElement(locator).click();
     }
 }

@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 import java.util.concurrent.TimeUnit;
 
-public class ApplicationManager {
+public class ApplicationManager{
     private GroupHelper groupHelper;
     private SessionHelper sessionHelper;
     FirefoxDriver wd;
@@ -30,10 +30,6 @@ public class ApplicationManager {
         sessionHelper.login("admin", "secret");
     }
 
-    public void goToGroupsPage() {
-        wd.findElement(By.linkText("groups")).click();
-    }
-
     public void openSite() {
         wd.get("http://localhost/addressbook/");
     }
@@ -48,5 +44,9 @@ public class ApplicationManager {
 
     public SessionHelper getSessionHelper() {
         return sessionHelper;
+    }
+
+    public void goToGroupsPage() {
+        wd.findElement(By.linkText("groups")).click();
     }
 }
