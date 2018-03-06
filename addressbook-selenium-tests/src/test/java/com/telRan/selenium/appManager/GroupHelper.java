@@ -2,11 +2,12 @@ package com.telRan.selenium.appManager;
 
 import com.telRan.selenium.model.GroupData;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class GroupHelper extends HelperBase{
 
-    public GroupHelper(FirefoxDriver wd) {
+    public GroupHelper(WebDriver wd) {
       super(wd);
     }
 
@@ -48,5 +49,19 @@ public class GroupHelper extends HelperBase{
     public int getGroupCount() {
         return wd.findElements(By.name("selected[]")).size();
 
+    }
+
+    public void createGroup() {
+        initGroupCreation();
+        fillGroupForm(new GroupData()
+                .setGroupName("test1")
+                .setGroupFooter("Test1Footer")
+                .setGroupHeader("Test1Header"));
+        submitGroupCreation();
+        returnToGroupsPage();
+    }
+
+    public boolean isGroupExist() {
+       return isElementPresent((By.name("selected[]")));
     }
 }

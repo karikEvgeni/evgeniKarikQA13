@@ -4,10 +4,10 @@ import com.telRan.selenium.model.ContactData;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ContactCreationTests extends TestBase{
+public class ContactCreationTests extends TestBase {
 
     @Test
-    public void creationContactTest(){
+    public void creationContactTest() {
         app.getNavigationHelper().goToHomePage();
         int before = app.getContactHelper().getContactCount();
         app.getNavigationHelper().initContactCreation();
