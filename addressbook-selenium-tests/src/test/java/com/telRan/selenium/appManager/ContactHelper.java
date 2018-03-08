@@ -53,4 +53,12 @@ public class ContactHelper extends HelperBase{
     click(By.xpath("//*[@value='Delete']"));
         wd.switchTo().alert().accept();
     }
+
+    public void initContactModificationByPencil() {
+        click(By.xpath("//html//tr[2]/td[8]"));
+    }
+
+    public void submitContactModification() {
+        click(By.name("update"));
+    }
 }
