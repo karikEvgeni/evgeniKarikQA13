@@ -10,9 +10,9 @@ public class ContactCreationTests extends TestBase {
     public void creationContactTest() {
         app.getNavigationHelper().goToHomePage();
         int before = app.getContactHelper().getContactCount();
-        app.getNavigationHelper().initContactCreation();
+        app.getContactHelper().initContactCreation();
         app.getContactHelper().fillContactForm(new ContactData()
-                .setFirstName("fName")
+                .setFirstName("fName111")
                 .setLastName("lName")
                 .setAddress("Address"));
 

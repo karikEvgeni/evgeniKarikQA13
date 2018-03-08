@@ -25,16 +25,16 @@ public class ApplicationManager{
 
 
     public void start() {
-     //   String browser = BrowserType.FIREFOX;
-        if(browser.equals(BrowserType.FIREFOX)){
-            wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
-        }else if(browser.equals(BrowserType.CHROME)){
+
+        if(browser.equals(BrowserType.CHROME)){
             wd = new ChromeDriver();
+        }else if(browser.equals(BrowserType.FIREFOX)){
+            wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
         }else if (browser.equals(BrowserType.IE)){
             wd = new InternetExplorerDriver();
         }
 
-        wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         groupHelper = new GroupHelper(wd);
         contactHelper = new ContactHelper(wd);
         sessionHelper = new SessionHelper(wd);

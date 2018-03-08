@@ -71,103 +71,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/ApplicationManager.java">
+      <file leaf-file-name="ContactDeletionTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/ContactDeletionTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#782#783#0" expanded="true" />
-                <element signature="e#1544#1545#0" expanded="true" />
-                <element signature="e#1599#1600#0" expanded="true" />
-                <element signature="e#1625#1626#0" expanded="true" />
-                <element signature="e#1650#1651#0" expanded="true" />
-                <element signature="e#1693#1694#0" expanded="true" />
-                <element signature="e#1727#1728#0" expanded="true" />
-                <element signature="e#1774#1775#0" expanded="true" />
-                <element signature="e#1810#1811#0" expanded="true" />
-                <element signature="e#1857#1858#0" expanded="true" />
-                <element signature="e#1893#1894#0" expanded="true" />
-                <element signature="e#1945#1946#0" expanded="true" />
-                <element signature="e#1984#1985#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupCreationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/GroupCreationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NavigationHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/NavigationHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/GroupHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-              <folding>
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#1578#1579#0" expanded="true" />
-                <element signature="e#1641#1642#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactCreationTests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/ContactCreationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupDeletionTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/GroupDeletionTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelperBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/HelperBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1033,14 +943,16 @@
         <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/GroupCreationTests.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/GroupModificationTests.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/SessionHelper.java" />
-        <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/ContactHelper.java" />
-        <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/TestBase.java" />
-        <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/ContactCreationTests.java" />
-        <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/NavigationHelper.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/HelperBase.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/GroupDeletionTests.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/GroupHelper.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/ContactDelitionTests.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/NavigationHelper.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/ContactCreationTests.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/ContactDeletionTests.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/ContactHelper.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/ApplicationManager.java" />
       </list>
     </option>
   </component>
@@ -1050,7 +962,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-2" />
     <option name="width" value="1368" />
     <option name="height" value="728" />
@@ -1072,19 +984,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sandbox" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sandbox" type="eaaa3913:PackageViewModuleGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1149,6 +1050,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sandbox" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sandbox" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1158,7 +1070,7 @@
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="extract.method.default.visibility" value="private" />
+    <property name="extract.method.default.visibility" value="public" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com" />
   </component>
   <component name="RecentsManager">
@@ -1184,7 +1096,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ContactCreationTests.creationContactTest">
+  <component name="RunManager" selected="TestNG.ContactDeletionTests.contactDeletionTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1265,7 +1177,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="GroupCreationTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactDeletionTests.contactDeletionTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.telRan.selenium.tests.*" />
@@ -1277,10 +1189,10 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.telRan.selenium.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.telRan.selenium.tests.GroupCreationTests" />
-      <option name="METHOD_NAME" />
+      <option name="MAIN_CLASS_NAME" value="com.telRan.selenium.tests.ContactDeletionTests" />
+      <option name="METHOD_NAME" value="contactDeletionTest" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -1424,17 +1336,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="TestNG.GroupCreationTests.groupCreationTest" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.GroupDeletionTests.deletionGroupTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.GroupCreationTests" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.GroupModificationTests.groupModificationTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.ContactCreationTests.creationContactTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.GroupModificationTests.groupModificationTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.ContactCreationTests.creationContactTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.ContactDeletionTests.contactDeletionTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.ContactCreationTests.creationContactTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.GroupCreationTests.groupCreationTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.GroupModificationTests.groupModificationTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.GroupDeletionTests.deletionGroupTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.GroupCreationTests" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.ContactDeletionTests.contactDeletionTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.ContactCreationTests.creationContactTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.GroupCreationTests.groupCreationTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.GroupModificationTests.groupModificationTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.GroupDeletionTests.deletionGroupTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1455,40 +1367,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactCreationTests_creationContactTest - 2018.03.06 at 18h 59m 04s.xml">
+    <history-entry file="ContactCreationTests_creationContactTest - 2018.03.08 at 10h 01m 23s.xml">
       <configuration name="ContactCreationTests.creationContactTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactCreationTests_creationContactTest - 2018.03.06 at 20h 49m 35s.xml">
+    <history-entry file="ContactCreationTests_creationContactTest - 2018.03.08 at 12h 55m 19s.xml">
       <configuration name="ContactCreationTests.creationContactTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreationTests_groupCreationTest - 2018.03.06 at 19h 02m 25s.xml">
-      <configuration name="GroupCreationTests.groupCreationTest" configurationId="TestNG" />
+    <history-entry file="ContactCreationTests_creationContactTest - 2018.03.08 at 13h 00m 37s.xml">
+      <configuration name="ContactCreationTests.creationContactTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreationTests_groupCreationTest - 2018.03.06 at 19h 07m 06s.xml">
-      <configuration name="GroupCreationTests.groupCreationTest" configurationId="TestNG" />
+    <history-entry file="ContactDeletionTests_contactDeletionTest - 2018.03.08 at 12h 47m 01s.xml">
+      <configuration name="ContactDeletionTests.contactDeletionTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupModificationTests_groupModificationTest - 2018.03.06 at 16h 22m 20s.xml">
-      <configuration name="GroupModificationTests.groupModificationTest" configurationId="TestNG" />
+    <history-entry file="ContactDeletionTests_contactDeletionTest - 2018.03.08 at 12h 48m 13s.xml">
+      <configuration name="ContactDeletionTests.contactDeletionTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupModificationTests_groupModificationTest - 2018.03.06 at 16h 23m 07s.xml">
-      <configuration name="GroupModificationTests.groupModificationTest" configurationId="TestNG" />
+    <history-entry file="ContactDeletionTests_contactDeletionTest - 2018.03.08 at 12h 53m 14s.xml">
+      <configuration name="ContactDeletionTests.contactDeletionTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupModificationTests_groupModificationTest - 2018.03.06 at 16h 44m 41s.xml">
-      <configuration name="GroupModificationTests.groupModificationTest" configurationId="TestNG" />
+    <history-entry file="ContactDeletionTests_contactDeletionTest - 2018.03.08 at 13h 03m 56s.xml">
+      <configuration name="ContactDeletionTests.contactDeletionTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupModificationTests_groupModificationTest - 2018.03.06 at 18h 14m 06s.xml">
-      <configuration name="GroupModificationTests.groupModificationTest" configurationId="TestNG" />
+    <history-entry file="ContactDeletionTests_contactDeletionTest - 2018.03.08 at 13h 04m 59s.xml">
+      <configuration name="ContactDeletionTests.contactDeletionTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupModificationTests_groupModificationTest - 2018.03.06 at 18h 15m 08s.xml">
-      <configuration name="GroupModificationTests.groupModificationTest" configurationId="TestNG" />
+    <history-entry file="ContactDeletionTests_contactDeletionTest - 2018.03.08 at 13h 05m 38s.xml">
+      <configuration name="ContactDeletionTests.contactDeletionTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupModificationTests_groupModificationTest - 2018.03.06 at 18h 18m 27s.xml">
-      <configuration name="GroupModificationTests.groupModificationTest" configurationId="TestNG" />
+    <history-entry file="ContactDeletionTests_contactDeletionTest - 2018.03.08 at 13h 07m 01s.xml">
+      <configuration name="ContactDeletionTests.contactDeletionTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1498,20 +1409,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33724833" sideWeight="0.50423217" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34640524" sideWeight="0.49576783" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17473525" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17700455" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14069591" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14069591" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24927954" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14977308" sideWeight="0.50653595" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39863715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14977308" sideWeight="0.50653595" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1539,25 +1450,11 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="24" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sandbox/src/test/java/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/trelloTests/LoginValidUserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.IdeaIC2017.3/system/temp-testng-customsuite.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1761,36 +1658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/model/GroupData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#767#768#0" expanded="false" />
-            <element signature="e#799#800#0" expanded="false" />
-            <element signature="e#837#838#0" expanded="false" />
-            <element signature="e#871#872#0" expanded="false" />
-            <element signature="e#909#910#0" expanded="false" />
-            <element signature="e#943#944#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/model/ContactData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="e#161#162#0" expanded="false" />
-            <element signature="e#193#194#0" expanded="false" />
-            <element signature="e#348#349#0" expanded="false" />
-            <element signature="e#379#380#0" expanded="false" />
-            <element signature="e#529#530#0" expanded="false" />
-            <element signature="e#559#560#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/GroupModificationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1805,103 +1672,96 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-510">
           <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.9.1/6d7d1e4444a30bb84633e7ed888e9dcb3877a188/selenium-api-3.9.1-sources.jar!/org/openqa/selenium/WebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/SessionHelper.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/model/GroupData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/model/ContactData.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/ContactHelper.java">
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/GroupHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="116">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1625#1626#0" expanded="true" />
-            <element signature="e#1650#1651#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-            <element signature="e#1727#1728#0" expanded="true" />
-            <element signature="e#1774#1775#0" expanded="true" />
-            <element signature="e#1810#1811#0" expanded="true" />
-            <element signature="e#1857#1858#0" expanded="true" />
-            <element signature="e#1893#1894#0" expanded="true" />
-            <element signature="e#1945#1946#0" expanded="true" />
-            <element signature="e#1984#1985#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1578#1579#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/ContactCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="74" lean-forward="true" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/NavigationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/GroupDeletionTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="170">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/HelperBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        <state relative-caret-position="116">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
             <element signature="e#761#762#0" expanded="true" />
             <element signature="e#808#809#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/GroupHelper.java">
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/GroupDeletionTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+        <state relative-caret-position="221">
+          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
           <folding>
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#1578#1579#0" expanded="true" />
-            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/NavigationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1913,11 +1773,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/ContactCreationTests.java">
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/ContactHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        <state relative-caret-position="247">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/appManager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="36" column="48" lean-forward="false" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#1497#1498#0" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+            <element signature="e#1578#1579#0" expanded="true" />
+            <element signature="e#1603#1604#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1727#1728#0" expanded="true" />
+            <element signature="e#1763#1764#0" expanded="true" />
+            <element signature="e#1810#1811#0" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+            <element signature="e#1898#1899#0" expanded="true" />
+            <element signature="e#1937#1938#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/selenium/tests/ContactDeletionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

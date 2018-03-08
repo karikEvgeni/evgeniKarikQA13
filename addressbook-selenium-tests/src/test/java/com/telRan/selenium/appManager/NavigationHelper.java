@@ -12,9 +12,7 @@ public class NavigationHelper extends HelperBase{
         super(wd);
     }
 
-    public void initContactCreation() {
-        click(By.xpath("//*[@href='edit.php']"));
-    }
+
 
     public void goToHomePage() {
         if(isElementPresent(By.id("maintable"))) {
