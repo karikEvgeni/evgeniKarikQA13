@@ -8,6 +8,7 @@ import java.io.File;
 
 public class ContactCreationTests extends TestBase {
 
+
     @Test
     public void creationContactTest() {
         app.getNavigationHelper().goToHomePage();

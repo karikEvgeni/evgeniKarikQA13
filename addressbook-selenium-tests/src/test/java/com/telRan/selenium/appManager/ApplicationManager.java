@@ -29,7 +29,8 @@ public class ApplicationManager{
 
     public void start() throws IOException {
         String target = System.getProperty("target", "local");
-        properties.load(new FileReader(String.format("addressbook-selenium-tests/src/test/resources/%s.properties", target)));
+        properties.load(new FileReader(String.format
+                ("C:\\Users\\daria\\Documents\\GitHub\\evgeniKarikQA13\\addressbook-selenium-tests\\src\\test\\resources\\%s.properties", target)));
 
         if(browser.equals(BrowserType.CHROME)){
             wd = new ChromeDriver();
@@ -47,6 +48,10 @@ public class ApplicationManager{
         openSite(properties.getProperty("web.baseUrl"));//("http://localhost/addressbook/");
         sessionHelper.login(properties.getProperty("web.adminLogin"), properties.getProperty("web.adminPwd"));
 
+    }
+    public void getBrowserLog(){
+        System.out.println(wd.manage().logs().getAvailableLogTypes());
+        wd.manage().logs().get("browser").forEach(l -> System.out.println(l));
     }
 
     public void openSite(String url) {
