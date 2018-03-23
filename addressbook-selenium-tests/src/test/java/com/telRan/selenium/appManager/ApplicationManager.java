@@ -30,7 +30,7 @@ public class ApplicationManager{
     public void start() throws IOException {
         String target = System.getProperty("target", "local");
         properties.load(new FileReader(String.format
-                ("C:\\Users\\daria\\Documents\\GitHub\\evgeniKarikQA13\\addressbook-selenium-tests\\src\\test\\resources\\%s.properties", target)));
+                ("src/test/resources/%s.properties", target)));
 
         if(browser.equals(BrowserType.CHROME)){
             wd = new ChromeDriver();
