@@ -8,6 +8,4 @@
             <class name="com.telRan.selenium.tests.GroupDeletionTests" />
         </classes>
     </test>
-
-
 </suite>

@@ -8,6 +8,8 @@
       <module name="sandbox_test" target="1.8" />
       <module name="trelloSeleniumProject_main" target="1.8" />
       <module name="trelloSeleniumProject_test" target="1.8" />
+      <module name="units_main" target="1.8" />
+      <module name="units_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

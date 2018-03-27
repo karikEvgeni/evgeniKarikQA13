@@ -11,6 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/trelloSeleniumProject.iml" filepath="$PROJECT_DIR$/.idea/modules/trelloSeleniumProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/trelloSeleniumProject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/trelloSeleniumProject_main.iml" group="trelloSeleniumProject" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/trelloSeleniumProject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/trelloSeleniumProject_test.iml" group="trelloSeleniumProject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/units.iml" filepath="$PROJECT_DIR$/.idea/modules/units.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/units_main.iml" filepath="$PROJECT_DIR$/.idea/modules/units_main.iml" group="units" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/units_test.iml" filepath="$PROJECT_DIR$/.idea/modules/units_test.iml" group="units" />
     </modules>
   </component>
 </project>
